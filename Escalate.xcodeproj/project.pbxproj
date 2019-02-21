@@ -2438,7 +2438,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3be32a83-8401-4760-affe-1ece8e810ee5";
 				PROVISIONING_PROFILE_SPECIFIER = ESCALATE;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abc/Desktop/Offiece Projects/Runing projects/Escalate/Developement/Escalate 1:feb:2019 countUP/Escalate/Helper Class/Validations/Escalate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abc/Desktop/Offiece Projects/Runing projects/Escalate/Developement/Escalate 11:feb:2019 countUP/Escalate/Helper Class/Validations/Escalate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2463,7 +2463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3be32a83-8401-4760-affe-1ece8e810ee5";
 				PROVISIONING_PROFILE_SPECIFIER = ESCALATE;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abc/Desktop/Offiece Projects/Runing projects/Escalate/Developement/Escalate 1:feb:2019 countUP/Escalate/Helper Class/Validations/Escalate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abc/Desktop/Offiece Projects/Runing projects/Escalate/Developement/Escalate 11:feb:2019 countUP/Escalate/Helper Class/Validations/Escalate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

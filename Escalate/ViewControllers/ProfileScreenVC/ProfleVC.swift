@@ -83,7 +83,7 @@ class ProfleVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDelegate 
     
     var userDict = NSDictionary()
     
-    var tag = Int()
+    var tag = 1
     
     var audioUrl: URL!
     
@@ -217,7 +217,7 @@ class ProfleVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDelegate 
     override func viewWillAppear(_ animated: Bool) {
         //AccessCurrentLocationuser()
         viewProfile()
-        userPostList()
+//        userPostList()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -907,7 +907,15 @@ class ProfleVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDelegate 
                     let image = self.userDict["image"] as? String ?? ""
                     
                     self.imgProfile.sd_setImage(with: URL(string: image as? String ?? ""), placeholderImage: UIImage(named: "user_signup"))
-                    
+                    if self.tag == 1{
+                        self.userPostList()
+                    }else if self.tag == 2{
+                        
+                        self.followerList()
+                        
+                    }else{
+                        self.followingList()
+                    }
                     
                     
                 }else{
@@ -1511,7 +1519,7 @@ class ProfleVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDelegate 
         
         followerList()
         
-        viewProfile()
+       // viewProfile()
        // followingList()
     }
     
@@ -1596,7 +1604,7 @@ class ProfleVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDelegate 
         
         userPostList()
         
-        viewProfile()
+        //viewProfile()
         //followingList()
         
         

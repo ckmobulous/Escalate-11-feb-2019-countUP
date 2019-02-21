@@ -167,7 +167,7 @@ extension SocialLoginPopUpVC{
                         UserDefaults.standard.removeObject(forKey: "imageData")
                         UserDefaults.standard.set(true, forKey: "isLoginSuccessfully")
                         
-                        _ = SweetAlert().showAlert("", subTitle: "Select the categories you're interested in. We 'll then populate your newsfeed with the conversations on these topics to give you a foundation of people to interact with on the app", style: AlertStyle.success, buttonTitle:"OK", buttonColor:UIColor.colorFromRGB(0x4C286B)) { (isOtherButton) -> Void in
+                        _ = SweetAlert().showAlert("", subTitle: "You can select the categories you are interested in which will then populate your newsfeed", style: AlertStyle.success, buttonTitle:"OK", buttonColor:UIColor.colorFromRGB(0x4C286B)) { (isOtherButton) -> Void in
                             if isOtherButton == true {
                                 
                                 let vc = self.storyboard?.instantiateViewController(withIdentifier: "CategoriesVC") as! CategoriesVC

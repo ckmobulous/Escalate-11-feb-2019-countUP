@@ -1201,7 +1201,15 @@ class OtherProfileVC: UIViewController,AVAudioRecorderDelegate, AVAudioPlayerDel
                     
                     self.imgProfile.sd_setImage(with: URL(string: image as? String ?? ""), placeholderImage: UIImage(named: "user_signup"))
                     
-                    self.userPostList()
+                    if self.tag == 1{
+                        self.userPostList()
+                    }else if self.tag == 2{
+                        
+                        self.followerList()
+                        
+                    }else{
+                        self.followingList()
+                    }
                     
                 }else{
                     

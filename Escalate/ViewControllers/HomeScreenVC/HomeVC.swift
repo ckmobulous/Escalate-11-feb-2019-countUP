@@ -1097,9 +1097,10 @@ class HomeVC: UIViewController,AVAudioRecorderDelegate,AVAudioPlayerDelegate,UIS
             if audioUrl != nil
             {
                 
-
                 let playerItem:AVPlayerItem = AVPlayerItem(url: audioUrl!)
+                // let playerItem:AVPlayerItem = AVPlayerItem.init(url: audioUrl! as URL)
                 player = AVPlayer(playerItem: playerItem)
+                player!.rate = 1.0;
                 player!.play()
                 isPlaying = true
 
@@ -1112,6 +1113,10 @@ class HomeVC: UIViewController,AVAudioRecorderDelegate,AVAudioPlayerDelegate,UIS
                 countDownTimet()
                 timer3 = Timer.scheduledTimer(timeInterval: 0.009, target: self, selector: #selector(self.refreshAudioView(_:)), userInfo: nil, repeats: true)
                 cell.btnPlayPausedRef.setImage(UIImage(named: "home_pause_a"),for: .normal)
+                
+                
+                
+                
                
             }
             else
