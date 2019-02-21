@@ -19,10 +19,10 @@ class AlmofireWrapper: NSObject {
     
     var responseCode = 0
     
-    //let baseURL = "http://mobulous.app/escalate/api/"
-     //let baseURL = "http://mobulous.in/escalate/api/"
-    //let baseURL = "http://ec2-54-194-198-217.eu-west-1.compute.amazonaws.com/escalate/api/"
-    
+    // let baseURL = "http://mobulous.app/escalate/api/"
+    // let baseURL = "http://mobulous.in/escalate/api/"
+    // let baseURL = "http://ec2-54-194-198-217.eu-west-1.compute.amazonaws.com/escalate/api/"
+    // let baseURL = "http://escalateapp.co.uk/escalate/api/"
     let baseURL = "http://escalateapp.co.uk/escalate/api/"
    
   
